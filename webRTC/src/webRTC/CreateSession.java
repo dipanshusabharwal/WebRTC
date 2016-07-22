@@ -25,8 +25,8 @@ public class CreateSession extends HttpServlet {
 		//getting room name entered at welcomepage.jsp
 		String roomName = request.getParameter("room");
 
-		int apiKey = 45618232 ;
-		String apiSecret = "09f6db96849092b8c0584c63c63e495ebd82961f";		
+		int apiKey = ;
+		String apiSecret = "";		
 	
 		String sessionID = null;
 		String token = null;
